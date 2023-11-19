@@ -12,16 +12,19 @@ html, body {
 section {
     position: relative;
     border: 1px solid black;
-    margin:.5%;
+    margin:1%;
     padding:10px;
     padding-top:35px;
+    padding-bottom:10px;
     background-color: rgb(78, 60, 145);
-    width:32%;
+    width:30.75%;
     float:left;
+    height:200px;
+    overflow: hidden;
 }
 
 section#sec1 {
-    margin-left:1%;
+    margin-left:2%;
 }
 
 
