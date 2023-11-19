@@ -58,16 +58,16 @@ h2 {
 
 @media (min-width:768px) and (max-width:991px) {
     
-    section#sec1 {
+    section#sec1, section#sec2 {
         width: 42.5%;
         margin:5%;
-        margin-right:2.5%;
+    }
 
+    section#sec1 {
+        margin-right:2.5%;
     }
 
     section#sec2 {
-        width: 42.5%;
-        margin:5%;
         margin-left:2.5%;
     }
 
@@ -82,28 +82,16 @@ h2 {
 
 @media (max-width:767px) {
 
-    section#sec1 {
-        float:none;
-        width: 80%;
-        margin:5%;
-        margin-left:10%;
-        margin-right:10%;
-    
-    }
-    
-    section#sec2 {
-        float:none;
-        width: 80%;
-        margin:5%;
-        margin-left:10%;
-        margin-right:10%;
+    section: {
+
     }
 
-    section#sec3 {
+    section#sec1, section#sec2, section#sec3 {
         float:none;
         width: 80%;
         margin:5%;
         margin-left:10%;
         margin-right:10%;
     }
+    
 }
