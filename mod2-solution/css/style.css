@@ -82,9 +82,6 @@ h2 {
 
 @media (max-width:767px) {
 
-    section: {
-
-    }
 
     section#sec1, section#sec2, section#sec3 {
         float:none;
