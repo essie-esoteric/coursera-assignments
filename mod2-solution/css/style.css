@@ -15,9 +15,11 @@ section {
     margin:.5%;
     padding:10px;
     padding-top:35px;
-    background-color: gray;
+    background-color: rgb(78, 60, 145);
     width:32%;
     float:left;
+    height:200px;
+
 }
 
 section#sec1 {
@@ -26,16 +28,16 @@ section#sec1 {
 
 
 #t1 {
-    background-color: pink;
+    background-color: rgb(255, 0, 149);
 }
 
 #t2 {
-    background-color: red;
+    background-color: rgb(13, 62, 71);
     color: white;
 }
 
 #t3 {
-    background-color: rgb(209, 190, 128);
+    background-color: rgb(123, 255, 0)
 }
 
 h1 {
@@ -57,22 +59,22 @@ h2 {
 @media (min-width:768px) and (max-width:991px) {
     
     section#sec1 {
-        width: 48.5%;
-        margin:1%;
-        margin-right:0.5%;
+        width: 42.5%;
+        margin:5%;
+        margin-right:2.5%;
 
     }
 
     section#sec2 {
-        width: 48.5%;
-        margin:1%;
-        margin-left:0.5%;
+        width: 42.5%;
+        margin:5%;
+        margin-left:2.5%;
     }
 
     section#sec3 {
         clear:left;
-        width: 98%;
-        margin:1%;
+        width: 90%;
+        margin:5%;
         margin-top:0%;
     }
 
@@ -82,20 +84,26 @@ h2 {
 
     section#sec1 {
         float:none;
-        width: 90%;
+        width: 80%;
         margin:5%;
+        margin-left:10%;
+        margin-right:10%;
     
     }
     
     section#sec2 {
         float:none;
-        width: 90%;
+        width: 80%;
         margin:5%;
+        margin-left:10%;
+        margin-right:10%;
     }
 
     section#sec3 {
         float:none;
-        width: 90%;
+        width: 80%;
         margin:5%;
+        margin-left:10%;
+        margin-right:10%;
     }
 }
