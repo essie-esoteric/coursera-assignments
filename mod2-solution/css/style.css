@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    font-family: "Courier New", monospace;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+
+section {
+    position: relative;
+    border: 1px solid black;
+    margin:.5%;
+    padding:10px;
+    padding-top:35px;
+    background-color: gray;
+    width:32%;
+    float:left;
+}
+
+section#sec1 {
+    margin-left:1%;
+}
+
+
+#t1 {
+    background-color: pink;
+}
+
+#t2 {
+    background-color: red;
+    color: white;
+}
+
+#t3 {
+    background-color: rgb(209, 190, 128);
+}
+
+h1 {
+    display: block;
+    text-align: center;
+}
+
+h2 {
+    position:absolute;
+    top:0;
+    right:0;
+    margin: auto;
+    width: 150px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    
+    section#sec1 {
+        width: 48.5%;
+        margin:1%;
+        margin-right:0.5%;
+
+    }
+
+    section#sec2 {
+        width: 48.5%;
+        margin:1%;
+        margin-left:0.5%;
+    }
+
+    section#sec3 {
+        clear:left;
+        width: 98%;
+        margin:1%;
+        margin-top:0%;
+    }
+
+}
+
+@media (max-width:767px) {
+
+    section#sec1 {
+        float:none;
+        width: 90%;
+        margin:5%;
+    
+    }
+    
+    section#sec2 {
+        float:none;
+        width: 90%;
+        margin:5%;
+    }
+
+    section#sec3 {
+        float:none;
+        width: 90%;
+        margin:5%;
+    }
+}
