@@ -1,0 +1,81 @@
+
+* {
+    box-sizing: border-box;
+}
+
+li:nth-child(1), li:nth-child(2) {
+    border-bottom: 1px dotted #000000;
+}
+
+html, body {
+    margin: 0;
+    padding: 0px;
+    background-color: #000000;
+}
+header {
+    position: relative;
+    background-color: black;
+    border-bottom: 2px solid #ffffff;
+} 
+
+a.navbar-brand {   
+    padding-left: 2%;
+}
+
+.container-fluid {
+    padding:0;
+}
+.container-fluid.mainarea {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#chicken, #beef, #sushi {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: .5em;
+}
+
+#chicken {
+    background-image: linear-gradient(#ffffff, #5a0026);
+}
+
+#beef {
+    background-image: linear-gradient(#ffffff, #234b23);
+}
+
+#sushi {
+    background-image: linear-gradient(#ffffff, #2d2d6d);
+}
+
+
+.collapse.navbar-collapse {
+    position: inherit;
+    top:8px;
+background-image: linear-gradient(#ffffff, #508486);
+    border-top: 2px solid black;
+}
+
+.navbar {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28331, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+h1, a.navbar-brand {
+    text-decoration: none;
+    color: #ffffff;
+} 
+
+
+@media (min-width:768px) {
+    div.collapse.collapse.navbar-collapse, div ul li {
+    display: none;
+    background-image: none;
+    border: none;
+    }  
+}
+
+@media (max-width:767px) {
+    .container-fluid.mainarea {
+        padding-left:75px;
+        padding-right:75px;
+    }
+}
